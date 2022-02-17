@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4615AD9F27BECF4E00D9546B /* GymderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4615AD9E27BECF4E00D9546B /* GymderApp.swift */; };
+		4615ADA127BECF4E00D9546B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4615ADA027BECF4E00D9546B /* ContentView.swift */; };
+		4615ADA327BECF4F00D9546B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4615ADA227BECF4F00D9546B /* Assets.xcassets */; };
+		4615ADA627BECF4F00D9546B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4615ADA527BECF4F00D9546B /* Preview Assets.xcassets */; };
+		4615ADB027BECF5000D9546B /* GymderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4615ADAF27BECF5000D9546B /* GymderTests.swift */; };
+		4615ADBA27BECF5000D9546B /* GymderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4615ADB927BECF5000D9546B /* GymderUITests.swift */; };
+		4615ADBC27BECF5000D9546B /* GymderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4615ADBB27BECF5000D9546B /* GymderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4615ADAC27BECF4F00D9546B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4615AD9327BECF4E00D9546B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4615AD9A27BECF4E00D9546B;
+			remoteInfo = Gymder;
+		};
+		4615ADB627BECF5000D9546B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4615AD9327BECF4E00D9546B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4615AD9A27BECF4E00D9546B;
+			remoteInfo = Gymder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4615AD9B27BECF4E00D9546B /* Gymder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gymder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4615AD9E27BECF4E00D9546B /* GymderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymderApp.swift; sourceTree = "<group>"; };
+		4615ADA027BECF4E00D9546B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4615ADA227BECF4F00D9546B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4615ADA527BECF4F00D9546B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4615ADAB27BECF4F00D9546B /* GymderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4615ADAF27BECF5000D9546B /* GymderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymderTests.swift; sourceTree = "<group>"; };
+		4615ADB527BECF5000D9546B /* GymderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4615ADB927BECF5000D9546B /* GymderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymderUITests.swift; sourceTree = "<group>"; };
+		4615ADBB27BECF5000D9546B /* GymderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4615AD9827BECF4E00D9546B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4615ADA827BECF4F00D9546B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4615ADB227BECF5000D9546B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4615AD9227BECF4E00D9546B = {
+			isa = PBXGroup;
+			children = (
+				4615AD9D27BECF4E00D9546B /* Gymder */,
+				4615ADAE27BECF5000D9546B /* GymderTests */,
+				4615ADB827BECF5000D9546B /* GymderUITests */,
+				4615AD9C27BECF4E00D9546B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4615AD9C27BECF4E00D9546B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4615AD9B27BECF4E00D9546B /* Gymder.app */,
+				4615ADAB27BECF4F00D9546B /* GymderTests.xctest */,
+				4615ADB527BECF5000D9546B /* GymderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4615AD9D27BECF4E00D9546B /* Gymder */ = {
+			isa = PBXGroup;
+			children = (
+				4615AD9E27BECF4E00D9546B /* GymderApp.swift */,
+				4615ADA027BECF4E00D9546B /* ContentView.swift */,
+				4615ADA227BECF4F00D9546B /* Assets.xcassets */,
+				4615ADA427BECF4F00D9546B /* Preview Content */,
+			);
+			path = Gymder;
+			sourceTree = "<group>";
+		};
+		4615ADA427BECF4F00D9546B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4615ADA527BECF4F00D9546B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4615ADAE27BECF5000D9546B /* GymderTests */ = {
+			isa = PBXGroup;
+			children = (
+				4615ADAF27BECF5000D9546B /* GymderTests.swift */,
+			);
+			path = GymderTests;
+			sourceTree = "<group>";
+		};
+		4615ADB827BECF5000D9546B /* GymderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4615ADB927BECF5000D9546B /* GymderUITests.swift */,
+				4615ADBB27BECF5000D9546B /* GymderUITestsLaunchTests.swift */,
+			);
+			path = GymderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4615AD9A27BECF4E00D9546B /* Gymder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4615ADBF27BECF5000D9546B /* Build configuration list for PBXNativeTarget "Gymder" */;
+			buildPhases = (
+				4615AD9727BECF4E00D9546B /* Sources */,
+				4615AD9827BECF4E00D9546B /* Frameworks */,
+				4615AD9927BECF4E00D9546B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gymder;
+			productName = Gymder;
+			productReference = 4615AD9B27BECF4E00D9546B /* Gymder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4615ADAA27BECF4F00D9546B /* GymderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4615ADC227BECF5000D9546B /* Build configuration list for PBXNativeTarget "GymderTests" */;
+			buildPhases = (
+				4615ADA727BECF4F00D9546B /* Sources */,
+				4615ADA827BECF4F00D9546B /* Frameworks */,
+				4615ADA927BECF4F00D9546B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4615ADAD27BECF4F00D9546B /* PBXTargetDependency */,
+			);
+			name = GymderTests;
+			productName = GymderTests;
+			productReference = 4615ADAB27BECF4F00D9546B /* GymderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4615ADB427BECF5000D9546B /* GymderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4615ADC527BECF5000D9546B /* Build configuration list for PBXNativeTarget "GymderUITests" */;
+			buildPhases = (
+				4615ADB127BECF5000D9546B /* Sources */,
+				4615ADB227BECF5000D9546B /* Frameworks */,
+				4615ADB327BECF5000D9546B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4615ADB727BECF5000D9546B /* PBXTargetDependency */,
+			);
+			name = GymderUITests;
+			productName = GymderUITests;
+			productReference = 4615ADB527BECF5000D9546B /* GymderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4615AD9327BECF4E00D9546B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4615AD9A27BECF4E00D9546B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					4615ADAA27BECF4F00D9546B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4615AD9A27BECF4E00D9546B;
+					};
+					4615ADB427BECF5000D9546B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4615AD9A27BECF4E00D9546B;
+					};
+				};
+			};
+			buildConfigurationList = 4615AD9627BECF4E00D9546B /* Build configuration list for PBXProject "Gymder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4615AD9227BECF4E00D9546B;
+			productRefGroup = 4615AD9C27BECF4E00D9546B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4615AD9A27BECF4E00D9546B /* Gymder */,
+				4615ADAA27BECF4F00D9546B /* GymderTests */,
+				4615ADB427BECF5000D9546B /* GymderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4615AD9927BECF4E00D9546B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4615ADA627BECF4F00D9546B /* Preview Assets.xcassets in Resources */,
+				4615ADA327BECF4F00D9546B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4615ADA927BECF4F00D9546B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4615ADB327BECF5000D9546B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4615AD9727BECF4E00D9546B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4615ADA127BECF4E00D9546B /* ContentView.swift in Sources */,
+				4615AD9F27BECF4E00D9546B /* GymderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4615ADA727BECF4F00D9546B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4615ADB027BECF5000D9546B /* GymderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4615ADB127BECF5000D9546B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4615ADBC27BECF5000D9546B /* GymderUITestsLaunchTests.swift in Sources */,
+				4615ADBA27BECF5000D9546B /* GymderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4615ADAD27BECF4F00D9546B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4615AD9A27BECF4E00D9546B /* Gymder */;
+			targetProxy = 4615ADAC27BECF4F00D9546B /* PBXContainerItemProxy */;
+		};
+		4615ADB727BECF5000D9546B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4615AD9A27BECF4E00D9546B /* Gymder */;
+			targetProxy = 4615ADB627BECF5000D9546B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4615ADBD27BECF5000D9546B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4615ADBE27BECF5000D9546B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4615ADC027BECF5000D9546B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gymder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GymderTeam.Gymder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4615ADC127BECF5000D9546B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gymder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GymderTeam.Gymder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4615ADC327BECF5000D9546B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GymderTeam.GymderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gymder.app/Gymder";
+			};
+			name = Debug;
+		};
+		4615ADC427BECF5000D9546B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GymderTeam.GymderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gymder.app/Gymder";
+			};
+			name = Release;
+		};
+		4615ADC627BECF5000D9546B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GymderTeam.GymderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gymder;
+			};
+			name = Debug;
+		};
+		4615ADC727BECF5000D9546B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GymderTeam.GymderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gymder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4615AD9627BECF4E00D9546B /* Build configuration list for PBXProject "Gymder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4615ADBD27BECF5000D9546B /* Debug */,
+				4615ADBE27BECF5000D9546B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4615ADBF27BECF5000D9546B /* Build configuration list for PBXNativeTarget "Gymder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4615ADC027BECF5000D9546B /* Debug */,
+				4615ADC127BECF5000D9546B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4615ADC227BECF5000D9546B /* Build configuration list for PBXNativeTarget "GymderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4615ADC327BECF5000D9546B /* Debug */,
+				4615ADC427BECF5000D9546B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4615ADC527BECF5000D9546B /* Build configuration list for PBXNativeTarget "GymderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4615ADC627BECF5000D9546B /* Debug */,
+				4615ADC727BECF5000D9546B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4615AD9327BECF4E00D9546B /* Project object */;
+}
